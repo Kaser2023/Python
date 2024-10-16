@@ -3,6 +3,16 @@ from bs4 import BeautifulSoup
 import io
 from PyPDF2 import PdfFileReader
 
+# ----------------------------------------------------------------
+# Coded by: Abdullah Alqurashi.
+# ----------------------------
+# Git-Hub: https://github.com/Kaser2023
+# Linked-In: https://www.linkedin.com/in/abdullah-alqurashi-a3777a224/
+# Date: 13.Rabi'a Alakhir. 1446 -  2024.Oct.16
+# ----------------------------------------------------------------
+
+
+
 url = "https://www.rgpvonline.com/rgpv-first-year.html"
 read = requests.get(url)
 html_content = read.content
