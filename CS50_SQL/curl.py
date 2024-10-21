@@ -1,4 +1,0 @@
-import curl
-
-
-c = curl

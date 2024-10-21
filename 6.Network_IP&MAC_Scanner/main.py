@@ -5,6 +5,16 @@
 import scapy.all as scapy
 
 
+
+# ----------------------------------------------------------------
+# Coded by: Abdullah Alqurashi.
+# ----------------------------
+# Git-Hub: https://github.com/Kaser2023
+# Linked-In: https://www.linkedin.com/in/abdullah-alqurashi-a3777a224/
+# Date: 18.Rabi'a Alakhir. 1446 -  2024.Oct.21
+# ----------------------------------------------------------------
+
+
 def scan(ip):
     arp_request = scapy.ARP(pdst=ip)
     # arp_request.show()
@@ -38,7 +48,5 @@ def scan(ip):
 
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
-# scan("192.168.1.1/24")
-scan(input("[Hint!] Use the command [route -n (/24)] for getting the roter IP\n[-] Enter the Router IP for searching devices: "))
-# For user input!!!!!!
-# I did that by myself
+
+scan("192.168.1.1/24")
