@@ -1,6 +1,8 @@
 from openai import OpenAI
 client = OpenAI()
-client.api_key = ""
+
+
+client.api_key = "Put your API key"
 
 
 # ----------------------------------------------------------------
