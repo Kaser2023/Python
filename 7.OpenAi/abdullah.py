@@ -1,6 +1,6 @@
 from openai import OpenAI
 client = OpenAI()
-client.api_key = "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"
+client.api_key = ""
 
 
 # ----------------------------------------------------------------
